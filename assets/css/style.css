@@ -123,4 +123,73 @@ main {
     flex-direction: column;
 }
 
+#banner-content {
+    height: 700px;
+    width: 100%;
+    background: url(../images/chelsea-gates-n8L1VYaypcw-unsplash.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+/* First Banner Text Box, 'try your first class free' */
+#banner-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(255, 229, 217, .7);
+    font-size: 130%;
+    text-align: center;
+    position: absolute;
+    bottom: 160px;
+    min-width: 70%;
+    min-height: 130px;
+    padding: 10px;
+}
+
+#banner-text h2 {
+    color: white;
+}
+
+#banner-text h4 {
+    font-size: 75%;
+}
+
+#banner-text a {
+    font-size: smaller;
+}
+
+.button {
+    background-color: #D8E2DC;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button4 {
+    background-color: #D8E2DC;
+    color: black;
+    border: 2px solid #D8E2DC;
+}
+
+.button4:hover {
+    background-color: #D8E2DC;
+}
+
+/* Second Banner Box including Class Styles */
+#banner-class-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(255, 229, 217, .7);
+    font-size: 130%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 90px;
+    padding: 10px;
+}
 
