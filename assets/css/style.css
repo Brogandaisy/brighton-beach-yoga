@@ -1,0 +1,124 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'League-spartan', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'League-spartan', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    color: #8A6A74;
+}
+
+/* Responsive for Mobile Code */
+body {
+    background-color: #D8E2DC;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: #FFE5D9;
+    padding: 2rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header p {
+    font-family: 'League-spartan', sans-serif;
+    color: #8A6A74;
+    font-size: 110%;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+    font-family: "poppins", sans-serif;
+    color: #8A6A74;
+    font-size: 120%;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #FFE5D9;
+    width: 100%;
+    left: 0;
+    padding-left: 2rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#logo {
+    font-size: 200%;
+    line-height: 30px;
+    margin: 0 0.5rem;
+}
+
+/* Main Content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 225px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
