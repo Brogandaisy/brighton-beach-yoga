@@ -18,7 +18,10 @@ body {
     font-family: 'League-spartan', sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'League-spartan', sans-serif;
     text-transform: lowercase;
     letter-spacing: 0;
@@ -195,6 +198,7 @@ main {
     min-height: 90px;
     padding: 10px;
 }
+
 #banner-class-text h5 {
     font-size: 110%;
     line-height: 25px;
@@ -217,9 +221,10 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
+
 #why-us {
     text-align: center;
-padding: 50px 50px;
+    padding: 50px 50px;
 }
 
 }
@@ -237,6 +242,15 @@ padding: 50px 50px;
 #why-us p {
     line-height: 25px;
     color: #8A6A74;
+}
+
+/* Main content Images */
+
+
+#studio-images img {
+    width: 100%;
+    height: auto;
+    line-height: 1em;
 }
 
 /* Contact Us Form Main Section */
@@ -297,36 +311,38 @@ textarea {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-/* Main Content / Why us? */
+    /* Main Content / Why us? */
 
-#main-info {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-#why-us {
-padding: 50px 50px;
-}
+    #main-info {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-#why-us h1 {
-    font-size: 250%;
-    line-height: 30px;
-}
+    #why-us {
+        padding: 50px 50px;
+    }
 
-#why-us hr {
-    border-top: #8A6A74;
-    margin: 25px 0;
-}
+    #why-us h1 {
+        font-size: 250%;
+        line-height: 30px;
+    }
 
-#why-us p {
-    font-size: 130%;
-    line-height: 25px;
-    color: #8A6A74;
-}
+    #why-us hr {
+        border-top: #8A6A74;
+        margin: 25px 0;
+    }
+
+    #why-us p {
+        font-size: 120%;
+        line-height: 25px;
+        color: #8A6A74;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -340,7 +356,7 @@ padding: 50px 50px;
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -353,13 +369,14 @@ padding: 50px 50px;
         line-height: 40px;
         margin: 0 0.5rem;
     }
-    
+
     header p {
         font-family: 'League-spartan', sans-serif;
         color: #8A6A74;
         font-size: 110%;
         margin-left: 10px;
     }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -378,12 +395,70 @@ padding: 50px 50px;
         padding: 10px;
 
     }
+
+    /* Main info and Why Us Section */
+    #main-info {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #why-us {
+        padding: 80px 80px;
+    }
+
+    #why-us h1 {
+        font-size: 250%;
+        line-height: 30px;
+    }
+
+    #why-us hr {
+        border-top: #8A6A74;
+        margin: 25px 0;
+    }
+
+    #why-us p {
+        font-size: 120%;
+        line-height: 25px;
+        color: #8A6A74;
+    }
+
+    #studio-images img {
+        column-count: 2;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-}
 
+        /* Main info and Why Us Section */
+        #main-info {
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #why-us {
+            margin: auto;
+            width: 60%;
+        }
+    
+        #why-us h1 {
+            font-size: 250%;
+            line-height: 30px;
+        }
+    
+        #why-us hr {
+            border-top: #8A6A74;
+            margin: 25px 0;
+        }
+    
+        #why-us p {
+            font-size: 120%;
+            line-height: 25px;
+            color: #8A6A74;
+        }
+}
