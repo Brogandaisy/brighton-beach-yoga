@@ -211,13 +211,17 @@ main {
 }
 
 /* Main Content / Why us? */
+
+#main-info {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 #why-us {
-    width: 100%;
-    height: 250px;
-    position: ;
     text-align: center;
-    padding: 50px;
-    margin-bottom: 20px;
+padding: 50px 50px;
+}
+
 }
 
 #why-us h1 {
@@ -292,6 +296,33 @@ textarea {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
+/* Main Content / Why us? */
+
+#main-info {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#why-us {
+padding: 50px 50px;
+}
+
+#why-us h1 {
+    font-size: 250%;
+    line-height: 30px;
+}
+
+#why-us hr {
+    border-top: #8A6A74;
+    margin: 25px 0;
+}
+
+#why-us p {
+    font-size: 130%;
+    line-height: 25px;
+    color: #8A6A74;
+}
 }
 
 /* Media query: tablets and larger (768px and up) */
