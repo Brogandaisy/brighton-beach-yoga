@@ -251,6 +251,7 @@ main {
     width: 100%;
     height: auto;
     line-height: 1em;
+    margin-top: 10px;
 }
 
 /* Contact Us Form Main Section */
@@ -334,7 +335,7 @@ textarea {
     }
 
     #why-us p {
-        font-size: 120%;
+        font-size: 130%;
         line-height: 25px;
         color: #8A6A74;
     }
