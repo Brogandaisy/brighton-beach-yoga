@@ -34,6 +34,13 @@ h5 {
     color: #8A6A74;
 }
 
+p {
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 0;
+    color: #8A6A74;
+    font-size: 18px;
+}
+
 /* Responsive for Mobile Code */
 body {
     background-color: #D8E2DC;
@@ -159,6 +166,10 @@ main {
 
 #banner-text a {
     font-size: smaller;
+}
+
+#banner-text p {
+    line-height: 20px;
 }
 
 .button {
@@ -307,6 +318,37 @@ textarea {
     font-size: 100%;
     background-color: #8A6A74;
     color: #fafafa;
+}
+
+/* Footer Content */
+
+#footer {
+    background: #8A6A74;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer h1, h2, a, p {
+    color: #FFE5D9;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-wrap: wrap;
+}
+
+#footer-contact {
+    text-align: center;
+    line-height: 30px;
+}
+
+#footer-contact hr {
+    border-top: #D8E2DC;
+    margin: 20px 0;
+}
+
+.fa-instagram {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Media query: large or landscape phones (576px and up) */
