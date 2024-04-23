@@ -136,6 +136,7 @@ main {
     flex-direction: column;
 }
 
+/* Banner Content Homepage */
 #banner-content {
     height: 700px;
     width: 100%;
@@ -143,7 +144,7 @@ main {
     position: relative;
 }
 
-/* First Banner Text Box, 'try your first class free' */
+/* First Banner Text Box, 'try your first class free' Homepage */
 #banner-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(255, 229, 217, .7);
@@ -161,42 +162,43 @@ main {
 }
 
 #banner-text h4 {
-    font-size: 75%;
+    font-size: 85%;
+    padding-bottom: 10px;
 }
 
 #banner-text a {
     font-size: smaller;
 }
 
-#banner-text p {
+#banner-cta p {
+    color: #8A6A74;
     line-height: 20px;
 }
 
+
 .button {
     background-color: #D8E2DC;
-    /* Green */
     border: none;
-    color: white;
+    color: #8A6A74;
     padding: 8px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px;
+    margin: 8px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
 .button4 {
     background-color: #D8E2DC;
-    color: black;
+    color: #8A6A74
     border: 2px solid #D8E2DC;
 }
 
 .button4:hover {
     background-color: #D8E2DC;
 }
-
 /* Second Banner Box 'Try out class styles' */
 #banner-class-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -244,7 +246,7 @@ main {
     position: relative;
 }
 
-/* First Page Title Box */
+/* Sub Page Title Box */
 #page-banner-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(255, 255, 255, .7);
@@ -270,36 +272,12 @@ main {
 
 #page-banner-text p {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: #8A6A74;
 }
 
 #page-cta {
     padding-top: 10px;
-}
-
-.button {
-    background-color: #D8E2DC;
-    border: none;
-    color: white;
-    padding: 8px 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 8px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button4 {
-    background-color: #D8E2DC;
-    color: black;
-    border: 2px solid #D8E2DC;
-}
-
-.button4:hover {
-    background-color: #D8E2DC;
 }
 
 /* Main Content / Why us? */
@@ -313,8 +291,6 @@ main {
 #why-us {
     text-align: center;
     padding: 50px 50px;
-}
-
 }
 
 #why-us h1 {
@@ -348,7 +324,7 @@ main {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
 
@@ -363,6 +339,15 @@ main {
 
 #contact-us-form>h2 {
     color: #8A6A74;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contact-us p {
+    color: #8A6A74;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'poppins' sans-serif;
     margin-bottom: 20px;
 }
 
