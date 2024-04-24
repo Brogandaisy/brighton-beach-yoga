@@ -199,14 +199,14 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 150px;
+    margin-top: 125px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 /* Banner Content for CLASSES PAGE */
 #page-banner-content {
-    height: 200px;
+    height: 250px;
     width: 100%;
     background: url(../images/brighton-beach-banner-page.jpg) no-repeat center center/cover;
     position: relative;
@@ -399,6 +399,14 @@ p {
         line-height: 25px;
         color: #8A6A74;
     }
+
+    /* Banner Content for CLASSES PAGE */
+    #page-banner-content {
+        height: 180px;
+        width: 100%;
+        background: url(../images/brighton-beach-banner-page.jpg) no-repeat center center/cover;
+        position: relative;
+    }
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -448,7 +456,7 @@ p {
     }
     /* Banner Content for CLASSES PAGE */
     #page-banner-content {
-        height: 200px;
+        height: 180px;
         width: 100%;
         background: url(../images/brighton-beach-banner-page.jpg) no-repeat center center/cover;
         position: relative;
