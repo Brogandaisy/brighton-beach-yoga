@@ -1,13 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -17,7 +15,6 @@ body {
     color: #3a3a3a;
     font-family: 'League-spartan', sans-serif;
 }
-
 h1,
 h2,
 h3,
@@ -27,32 +24,27 @@ h4 {
     letter-spacing: 0;
     color: #8A6A74;
 }
-
 h5 {
     font-family: 'League-spartan', sans-serif;
     letter-spacing: 0;
     color: #8A6A74;
 }
-
 p {
     font-family: 'poppins', sans-serif;
     letter-spacing: 0;
     color: #8A6A74;
     font-size: 18px;
 }
-
 /* Responsive for Mobile Code */
 body {
     background-color: #D8E2DC;
 }
-
 .container {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
     background-color: white;
 }
-
 /* Header */
 header {
     background-color: #FFE5D9;
@@ -64,12 +56,10 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
-
 header a {
     text-decoration: none;
     color: inherit;
 }
-
 header p {
     font-family: 'League-spartan', sans-serif;
     color: #8A6A74;
@@ -77,24 +67,20 @@ header p {
     margin-left: 10px;
     line-height: 30px;
 }
-
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
 }
-
 #menu>li {
     margin-bottom: 1em;
     font-family: "poppins", sans-serif;
     color: #8A6A74;
     font-size: 120%;
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -105,26 +91,21 @@ nav {
     display: none;
     top: 100%;
 }
-
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
-
 #nav-toggle {
     display: none;
 }
-
 .nav-toggle-label {
     font-size: 2rem;
 }
-
-#logo {
+.logo {
     font-size: 200%;
     line-height: 30px;
     margin: 0 0.5rem;
 }
-
 /* Main Content for HOMEPAGE */
 main {
     /* Enlarge main element to push footer down*/
@@ -135,15 +116,13 @@ main {
     display: flex;
     flex-direction: column;
 }
-
 /* Banner Content Homepage */
 #banner-content {
     height: 700px;
     width: 100%;
-    background: url(../images/chelsea-gates-n8L1VYaypcw-unsplash.jpg) no-repeat center center/cover;
+    background: url(../images/brighton-beach-yoga-homepage.jpg) no-repeat center center/cover;
     position: relative;
 }
-
 /* First Banner Text Box, 'try your first class free' Homepage */
 #banner-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -156,26 +135,20 @@ main {
     min-height: 130px;
     padding: 10px;
 }
-
 #banner-text h2 {
     color: white;
 }
-
 #banner-text h4 {
     font-size: 85%;
     padding-bottom: 10px;
 }
-
 #banner-text a {
     font-size: smaller;
 }
-
 #banner-cta p {
     color: #8A6A74;
     line-height: 20px;
 }
-
-
 .button {
     background-color: #D8E2DC;
     border: none;
@@ -189,17 +162,14 @@ main {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 .button4 {
     background-color: #D8E2DC;
     color: #8A6A74;
     border: 2px solid #D8E2DC;
 }
-
 .button4:hover {
     background-color: #D8E2DC;
 }
-
 /* Second Banner Box 'Try out class styles' Homepage */
 #banner-class-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -212,22 +182,18 @@ main {
     min-height: 90px;
     padding: 10px;
 }
-
 #banner-class-text h5 {
     font-size: 110%;
     line-height: 25px;
 }
-
 #banner-class-text hr {
     border-top: #8A6A74;
     margin: 5px 0;
 }
-
 #banner-class-text p {
     line-height: 25px;
     color: #8A6A74;
 }
-
 /* Main Content for Sub Pages */
 #pages-main {
     /* Enlarge main element to push footer down*/
@@ -238,7 +204,6 @@ main {
     display: flex;
     flex-direction: column;
 }
-
 /* Banner Content for CLASSES PAGE */
 #page-banner-content {
     height: 200px;
@@ -246,7 +211,6 @@ main {
     background: url(../images/brighton-beach-banner-page.jpg) no-repeat center center/cover;
     position: relative;
 }
-
 /* Sub Page Title Box */
 #page-banner-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -258,91 +222,74 @@ main {
     height: 100%;
     padding: 20px;
 }
-
 #page-banner-text h2 {
     color: #8A6A74;
 }
-
 #page-banner-text h4 {
     font-size: 50%;
 }
-
 #page-banner-text a {
     font-size: 12px;
 }
-
 #page-banner-text p {
     line-height: 20px;
     font-size: 14px;
     color: #8A6A74;
 }
-
 #page-cta {
     padding-top: 10px;
 }
-
 /* Main Content / Why us? Homepage */
-
 #main-info {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
-
 #why-us {
     text-align: center;
-    padding: 50px 50px;
+    padding: 40px 40px;
 }
-
 #why-us h1 {
     font-size: 200%;
     line-height: 30px;
 }
-
 #why-us hr {
     border-top: #8A6A74;
     margin: 25px 0;
 }
-
 #why-us p {
     line-height: 25px;
     color: #8A6A74;
 }
 
+/* Second Section / Benefits List */
 #why-us-list {
-    background-color: #FFE5D9;
-    max-width: fit-content;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FFE5D9;
+    padding: 30px;
 }
-
 #why-us-list h2 {
     color: #8A6A74;
     text-align: center;
-    padding: 50px 50px;
     padding-bottom: 20px;
-
 }
-
 #why-us-list li {
     color: #8A6A74;
     text-align: center;
     padding: 5px;
+    list-style: none;
 }
 
-
 /* Main content Images Homepage */
-
-
 #studio-images img {
     width: 100%;
     height: auto;
     line-height: 1em;
     margin-top: 10px;
 }
-
 /* Contact Us Form Main Section */
-
 #contact-us {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
@@ -350,30 +297,24 @@ main {
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
-
-
 #contact-us-form {
     color: #8A6A74;
     background-color: rgba(255, 229, 217, .7);
     padding: 30px;
     width: auto;
 }
-
-
 #contact-us-form>h2 {
     color: #8A6A74;
     margin-bottom: 10px;
     text-align: center;
 }
-
 #contact-us p {
     color: #8A6A74;
     text-align: center;
     font-size: 16px;
-    font-family: 'poppins' sans-serif;
+    font-family: 'poppins', sans-serif;
     margin-bottom: 20px;
 }
-
 .text-input {
     background: white;
     color: #8A6A74;
@@ -384,7 +325,6 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
-
 textarea {
     background: white;
     color: #8A6A74;
@@ -395,7 +335,6 @@ textarea {
     border-radius: 2px;
     padding: 0 5px;
 }
-
 .send {
     margin-top: 20px;
     border-radius: 2px;
@@ -404,15 +343,12 @@ textarea {
     background-color: #8A6A74;
     color: #fafafa;
 }
-
 /* Footer Content */
-
 #footer {
     background: #8A6A74;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 #footer h1,
 h2,
 a,
@@ -424,56 +360,48 @@ p {
     text-wrap: wrap;
 }
 
+#footer h1 {
+    font-size: 200%;
+}
 #footer-contact {
     text-align: center;
     line-height: 30px;
 }
-
 #footer-contact hr {
     border-top: #D8E2DC;
     margin: 20px 0;
 }
-
 .fa-instagram {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
     /* Main Content / Why us? */
-
     #main-info {
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
     }
-
     #why-us {
         padding: 50px 50px;
     }
-
     #why-us h1 {
         font-size: 250%;
         line-height: 30px;
     }
-
     #why-us hr {
         border-top: #8A6A74;
         margin: 25px 0;
     }
-
     #why-us p {
         font-size: 130%;
         line-height: 25px;
         color: #8A6A74;
     }
 }
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -482,38 +410,31 @@ p {
         width: fit-content;
         padding-right: 1rem;
     }
-
     #menu {
         display: flex;
     }
-
     #menu>li {
         padding-left: 1rem;
     }
-
     .nav-toggle-label {
         display: none;
     }
-
-    #logo {
+    .logo {
         font-size: 280%;
         line-height: 40px;
         margin: 0 0.5rem;
     }
-
     header p {
         font-family: 'League-spartan', sans-serif;
         color: #8A6A74;
         font-size: 110%;
         margin-left: 10px;
     }
-
     /* Main content Homepage */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-
     /* Banner Homepage */
     #banner-text {
         background-color: rgba(255, 229, 217, .7);
@@ -524,9 +445,7 @@ p {
         width: 100%;
         min-height: 90px;
         padding: 10px;
-
     }
-
     /* Banner Content for CLASSES PAGE */
     #page-banner-content {
         height: 200px;
@@ -534,7 +453,6 @@ p {
         background: url(../images/brighton-beach-banner-page.jpg) no-repeat center center/cover;
         position: relative;
     }
-
     /* Sub Page Title Box */
     #page-banner-text {
         /* Final rgba value sets the opacity so it is semi-transparent */
@@ -546,89 +464,72 @@ p {
         height: 100%;
         padding-top: 40px;
     }
-
     #page-banner-text h2 {
         color: #8A6A74;
     }
-
     #page-banner-text h4 {
         font-size: 60%;
     }
-
     #page-banner-text a {
         font-size: 18px;
     }
-
     #page-banner-text p {
         line-height: 20px;
         font-size: 16px;
         color: #8A6A74;
     }
-
     #page-cta {
         padding-top: 10px;
     }
-
     /* Main info and Why Us Section Homepage */
     #main-info {
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
     }
-
     #why-us {
         padding: 80px 80px;
     }
-
     #why-us h1 {
         font-size: 250%;
         line-height: 30px;
     }
-
     #why-us hr {
         border-top: #8A6A74;
         margin: 25px 0;
     }
-
     #why-us p {
         font-size: 120%;
         line-height: 25px;
         color: #8A6A74;
     }
-
     #studio-images img {
         column-count: 2;
     }
 }
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
     /* Main info and Why Us Section */
     #main-info {
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
     }
-
     #why-us {
         margin: auto;
         width: 60%;
     }
-
     #why-us h1 {
         font-size: 250%;
         line-height: 30px;
     }
-
     #why-us hr {
         border-top: #8A6A74;
         margin: 25px 0;
     }
-
     #why-us p {
         font-size: 120%;
         line-height: 25px;
