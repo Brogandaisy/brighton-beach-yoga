@@ -575,6 +575,7 @@ p {
     .gentle-img {
         display: none;
     }
+
     .vinyasa-img {
         display: none;
     }
@@ -712,8 +713,37 @@ p {
         color: #8A6A74;
     }
 
+    /* Class Styles / Classes Page */
+
+    #vinyasa  {
+        width: 900px;
+    }
+    #active  {
+        width: 900px;
+    }
+    #gentle  {
+        width: 900px;
+    }
+
     #studio-images img {
         column-count: 2;
+    }
+
+    .class-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding-bottom: 20px;
+    }
+
+    .active-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -752,10 +782,22 @@ p {
     }
 
     /* Main Section / Classes Pages */
-#main-pages-info {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
+    #main-pages-info {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+     /* Class Styles / Classes Page */
+
+     #vinyasa  {
+        width: 1080px;
+    }
+    #active  {
+        width: 1080px;
+    }
+    #gentle  {
+        width: 1080px;
+    }
 
 }
