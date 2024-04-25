@@ -530,6 +530,12 @@ p {
 #footer h1 {
     font-size: 200%;
 }
+#footer-pages li {
+    list-style: none;
+    color: #FFE5D9;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
 
 #footer-contact {
     text-align: center;
