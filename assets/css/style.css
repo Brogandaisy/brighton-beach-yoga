@@ -792,11 +792,19 @@ p {
     }
 
     /* Main Section / Classes Pages */
-    #main-pages-info {
-        max-width: fit-content;
+    .pages-content {
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* Newsletter */
+    #newsletter {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
      /* Class Styles / Classes Page */
 
