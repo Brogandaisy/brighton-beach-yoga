@@ -158,6 +158,8 @@ I used ['Browser Stack'](https://live.browserstack.com/dashboard#os=Windows&os_v
 ## CSS Validation
 ![css-validation](assets/images/brighton-beach-css-validation.png)
 ## Lighthouse Testing
+### Lighthouse Mobile - Homepage
+
 
 
 
