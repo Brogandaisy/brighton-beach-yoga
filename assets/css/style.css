@@ -123,6 +123,7 @@ nav {
     font-size: 200%;
     line-height: 30px;
     margin: 0 0.5rem;
+    color: #8A6A74;
 }
 
 /* Main Content for HOMEPAGE */
@@ -527,7 +528,7 @@ p {
     text-wrap: wrap;
 }
 
-#footer h1 {
+#footer-logo h2 {
     font-size: 200%;
 }
 #footer-pages li {
