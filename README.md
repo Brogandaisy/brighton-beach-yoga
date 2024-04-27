@@ -16,19 +16,18 @@ They wanted a new website which held a manageable amount of information for new 
 ## Table of Contents
 
 1. [UX](#user-experience-ux)
-    - [User Stories](###user-stories)
-    - [New Members](###new-members)
+    - [User Stories](#user-stories)
+    - [New Members](#new-members)
 2. [Design](#design)
-    - [Wireframes](###wireframes)
-3. Deployment
+    - [Wireframes](#wireframes)
+3. [Deployment](#deployment)
 4. [Features](#features)
-5. Testing
-    - Browser Testing
-    - Code Validation
-    - Lighthouse Test
-6. Technologies Used
-7. Credits and Reference
-8. Media
+5. [Testing](#testing)
+    - [Browser Testing](#browser-testing)
+    - [Code Validation](#code-validation)
+    - [Lighthouse Test](#lighthouse-testing)
+6. [Technologies Used](#technologies-used)
+7. [Credits and Reference](#credits-and-reference)
 
 ## User Experience UX
 
@@ -50,9 +49,47 @@ The website has been created across 3 pages, for clear and easy to use seperatio
 
 Each page is simple and follows the brand guidelines, allowing for brand recognition to flow throughout the site. Each sub-page has access back to the homepage.
 
+### Brand Colours
+![brand-colours](assets/images/brighton-beach-colors.png)
+
 ## Wireframes
 
+### Desktop Wireframes
+![desktop-wireframe](assets/images/brighton-beach-desktop-wireframe.png)
+![desktop-wireframe](assets/images/brighton-beach-wireframe-desktop-1.png)
+
+### Mobile Wireframes
+![mobile-wireframe](assets/images/brighton-beach-mobile-wireframe.png)
+![mobile-wireframe](assets/images/brighton-beach-mobile-wireframe1.png)
+
+### Sub Page Mobile Wireframe
+![mobile-wireframe](assets/images/brighton-beach-mobile-wireframes-Sub-Page.png)
 ## Deployment
+Using Github and Gitpod to deploy my project. 
+
+### My Repository
+
+1. Created a new public local repository on my Github account, and copied the repository to Gitpod to start building the website.
+
+2. When writing my code using Gitpod, I ensured I committed my changes to my local repository in regular intervals, using clear messaging for any changes I had made. 
+      - git add .
+      - git commit -m "This would be my message on what I had changed"
+
+3. After making my regular commits, I would then push the commits to my remote repository by using the command 'git push'. 
+
+### Hosting 
+
+1. To host my website, I went to Github and selected my repository named brighton-beach-yoga.
+2. I went to Settings > Pages 
+3. I made sure the following settings were applied:
+      - Source: 'Deploy from a branch' on the dropdown menu
+      - Branch: 'Main' and 'root' from the dropdown menus
+      - Pressed save
+4. This takes a few minutes to deploy, and will be found on the righthand-side of the repository dashboard page. 
+
+### Deployment on Github
+![github-deployment](assets/images/brighton-beach-deployment.png)
+
 
 ## Features
 The features for this website were chosen for a simple user experience, allowing the information to be presented easily and accessable to the end user. 
@@ -152,17 +189,90 @@ I used ['Browser Stack'](https://live.browserstack.com/dashboard#os=Windows&os_v
   </tbody>
 </table>
 
+## Responsive Testing
+
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Max-Width 575px Result (Small Mobile)</th>
+      <th>Min-Width 576px Result (Large Mobile)</th>
+      <th>Min-Width 768px Result (Tablet)</th>
+      <th>Min-Width 992px and Larger Result (Desktop)</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Galaxy Fold</td>
+      <td>Left banner text working well, movile nav bar formats correctly. All images display.</td>
+      <td>When rotated landscape, designed images are removed from 'Classes' page to save space and speed.</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+       <td>iPhone 6/7/8 Plus</td>
+       <td>Left banner text working well, movile nav bar formats correctly. All images display.</td>
+      <td>When rotated landscape, images format wider but the nav bar remains as a dropdown to save space. Designed images are removed from 'Classes' page</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>iPad Air</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>Nav bar becomes extended with additional space. Designed images removed from 'Classes' page. Images and text areas formated with additional padding. Homepage banner full width success.</td>
+      <td>When rotated landscape, features remain working well. Fonts increase due to screen size.</td>
+    </tr>
+    <tr>
+    <td>Macbook Air</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Features are centered to the desktop page, images resized to not overstretch and homepage banner CTA is centered. Nav bar is extended for easier use.</td>
+ 
+  </tbody>
+</table>
+
+## Device Formats
+![pixel-phone](assets/images/brighton-beach-pixel.png)
+![ipad](assets/images/brighton-beach-ipad-homepage.png)
+![desktop](assets/images/brighton-beach-classes-desktop1.png)
+
 ## Code Validation
 ### HTML Validation
 ![html-validation](assets/images/brighton-beach-html-validation.png)
 ## CSS Validation
 ![css-validation](assets/images/brighton-beach-css-validation.png)
 ## Lighthouse Testing
-### Lighthouse Mobile - Homepage
+### Lighthouse Test Mobile - Homepage
+![lighthouse-mobile](assets/images/brighton-beach-lighthouse-mobile1.png)
 
+### Lighthouse Test Desktop - Homepage
+![lighthouse-desktop](assets/images/brighton-beach-lighthouse-desktop1.png)
 
+### Testing Errors and Improvements
+When testing all the website pages using Lighthouse, I found the following bugs or improvements to increase the overall performance score:
+- Colour contrasts to improve accessability score. I made the text font darker and when a button is used I made the font bold to stand out.
+- Slow loading times. I resized my images to improve on page load times. This improved the score dramatically.
+- Removing any non-used code elements in CSS. This improved the best practice score.
 
+## Technologies Used
+### Languages
+HTML and CSS languages only.
 
+### Technology
+Github and Gitpod.
 
+## Credits and Reference
 
+Throughout the website build I used the following sources:
+
+- Example code from Code Institute Love Running Project
+- [W3Schools.com](https://www.w3schools.com/)
+- [Unsplash.com](https://unsplash.com/) for all images
+- [Canva](https://www.canva.com/) for favicon design
+
+## Author
+Brogan Carpenter
 
